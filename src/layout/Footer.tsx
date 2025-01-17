@@ -1,13 +1,13 @@
-import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
-import { HEADER_TITLE } from '@constants';
+// import { useEffect, useState } from 'react';
+// import { useLocation } from 'react-router-dom';
+// import { HEADER_TITLE } from '@constants';
 
 const Footer = () => {
-    const [title, setTitle] = useState('');
-    const { pathname } = useLocation();
-    useEffect(() => {
-        setTitle(HEADER_TITLE[pathname]);
-    }, [pathname]);
+    // const [title, setTitle] = useState('');
+    // const { pathname } = useLocation();
+    // useEffect(() => {
+    //     setTitle(HEADER_TITLE[pathname]);
+    // }, [pathname]);
     return (
         <footer className="bg-[#161920] text-white shadow-lg">
             <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
