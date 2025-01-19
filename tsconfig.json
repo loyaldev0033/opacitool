@@ -10,11 +10,6 @@
             "@pages": ["pages"],
             "@constants": ["constants"],
             "@ui": ["ui"],
-            "@components": ["components"],
-            "@charts": ["charts"],
-            "@hooks": ["hooks"],
-            "@store": ["store"],
-            "@utils": ["utils"],
             "@assets/*": ["assets/*"]
         }
     }

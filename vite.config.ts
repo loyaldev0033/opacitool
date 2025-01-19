@@ -13,11 +13,6 @@ export default defineConfig({
             '@pages': resolve(__dirname, 'src/pages'),
             '@constants': resolve(__dirname, 'src/constants'),
             '@ui': resolve(__dirname, 'src/ui'),
-            '@components': resolve(__dirname, 'src/components'),
-            '@charts': resolve(__dirname, 'src/charts'),
-            '@hooks': resolve(__dirname, 'src/hooks'),
-            '@store': resolve(__dirname, 'src/store'),
-            '@utils': resolve(__dirname, 'src/utils'),
             '@assets': resolve(__dirname, 'src/assets'),
         },
     },
@@ -27,5 +22,5 @@ export default defineConfig({
     },
     test: { globals: true, environment: 'jsdom', setupFiles: './setupTests.ts' },
     plugins: [react(), tsconfigPaths()],
-    base: '/react-admin-dashboard',
+    base: '/opacitool',
 });

@@ -1,30 +1,86 @@
-import {
-    BarChart2,
-    DollarSign,
-    LucideIcon,
-    Settings,
-    ShoppingBag,
-    ShoppingCart,
-    TrendingUp,
-    Users,
-} from 'lucide-react';
 
-interface SidebarItems {
-    name: string;
-    icon: LucideIcon;
-    color: string;
-    href: string;
-}
-
-export const SIDEBAR_ITEMS: SidebarItems[] = [
-    { name: 'Introduction', icon: BarChart2, color: '#6366f1', href: '/' },
-    { name: 'Emission Types & Controls', icon: ShoppingBag, color: '#8B5CF6', href: '/' },
-    { name: 'Method 9 Observation Procedures', icon: Users, color: '#EC4899', href: '/' },
-    { name: 'Method 9 Documentation Procedures', icon: DollarSign, color: '#10B981', href: '/' },
-    { name: 'Special Observation Situations', icon: ShoppingCart, color: '#F59E0B', href: '/' },
-    { name: 'Alternative Test Methods', icon: TrendingUp, color: '#3B82F6', href: '/' },
-    { name: 'EPA Method 22', icon: Settings, color: '#6EE7B7', href: '/' },
-    { name: 'History of Emission Observations', icon: Settings, color: '#6EE7B7', href: '/' },
-    { name: 'Frequently Asked Questions', icon: Settings, color: '#6EE7B7', href: '/' },
-    { name: 'Resources & Downloads', icon: Settings, color: '#6EE7B7', href: '/' },
+export const SIDEBAR_ITEMS = [
+    {
+        name: "Introduction",
+        href: "/",
+        submenu: [
+            { name: "About this Course", href: "/" },
+            { name: "Visible Emissions & Opacity", href: "/" },
+            { name: "Smoke School", href: "/" },
+            { name: "Importance of VE Observations", href: "/module14" },
+            { name: "Module 1 Quiz", href: "/" },
+        ],
+    },
+    {
+        name: 'Emission Types & Controls',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'Method 9 Observation Procedures',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'Method 9 Documentation Procedures',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'Special Observation Situations',
+        href: "/module-2",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'Alternative Test Methods',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'EPA Method 22',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'History of Emission Observations',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'Frequently Asked Questions',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
+    {
+        name: 'Resources & Downloads',
+        href: "/",
+        submenu: [
+            { name: "Submodule 2.1", href: "/" },
+            { name: "Submodule 2.2", href: "/" },
+        ],
+    },
 ];

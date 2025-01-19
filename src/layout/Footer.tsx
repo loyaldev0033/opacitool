@@ -1,31 +1,33 @@
-// import { useEffect, useState } from 'react';
-// import { useLocation } from 'react-router-dom';
-// import { HEADER_TITLE } from '@constants';
+import leftImage from '@assets/left.png';
+import rightImage from '@assets/right.png';
 
 const Footer = () => {
-    // const [title, setTitle] = useState('');
-    // const { pathname } = useLocation();
-    // useEffect(() => {
-    //     setTitle(HEADER_TITLE[pathname]);
-    // }, [pathname]);
     return (
         <footer className="bg-[#161920] text-white shadow-lg">
-            <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-start mx-auto px-4 py-4 sm:px-6 lg:px-12">
                 {/* Left Section */}
-                <div className="flex items-center space-x-2">
-                    <div className="flex">
-                        <span className="block bg-cyan-500 h-6 w-3 rotate-45"></span>
-                        <span className="block bg-cyan-500 h-6 w-3 rotate-45 -ml-2"></span>
+                <div className="flex flex-col items-center space-x-2 w-[15vw] cursor-pointer">
+                    <div className="w-[10vw]">
+                        <img
+                            src={leftImage}
+                            alt="Support"
+                            className="w-full h-14 object-contain"
+                        />
                     </div>
-                    <span className="text-lg font-large">Lecture Home</span>
+                    <span className="text-lg text-center font-large">Module 1.3</span>
+                    <span className="text-lg text-center font-large">Smoke School</span>
                 </div>
                 {/* Right Section */}
-                <div className="flex items-center space-x-2">
-                    <span className="text-lg font-large">Module 1.2 Visible Emissions & Opacity</span>
-                    <div className="flex">
-                        <span className="block bg-cyan-500 h-6 w-3 rotate-45"></span>
-                        <span className="block bg-cyan-500 h-6 w-3 rotate-180 -ml-2"></span>
+                <div className="flex flex-col items-center space-x-2 w-[15vw] cursor-pointer">                    
+                    <div className="w-[10vw]">
+                        <img
+                            src={rightImage}
+                            alt="Support"
+                            className="w-full h-14 object-contain"
+                        />
                     </div>
+                    <span className="text-lg text-center font-large">Module 1</span>
+                    <span className="text-lg text-center font-large">Quiz</span>
                 </div>
             </div>
         </footer>

@@ -1,1 +1,2 @@
-export { default as OverviewPage } from './OverviewPage';
+export { default as OverviewPage } from './Module1Page';
+export { default as ModulePage } from './Module4Page';
