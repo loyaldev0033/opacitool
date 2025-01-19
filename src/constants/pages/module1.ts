@@ -3,6 +3,11 @@ import clockImage from '@assets/clock.png';
 import computerImage from '@assets/computer.png';
 import bookmarkImage from '@assets/bookmark.png';
 import questionImage from '@assets/question.png';
+import heath1Image from '@assets/26.png';
+import heath2Image from '@assets/27.png';
+import heath3Image from '@assets/28.png';
+import heath4Image from '@assets/29.png';
+import heath5Image from '@assets/30.png';
 
 export const moduleSection11 = [
     {
@@ -39,5 +44,44 @@ export const moduleSection11 = [
             'If you have questions regarding content in this course, you can submit your inquiry by selecting the Support icon at the top of the page. You will receive a response from one of our knowledgeable and friendly Midwest-based (Central Time) team members.',
         image: questionImage, // Update with your support icon path
         type: 2
+    },
+];
+
+export const moduleSection14 = [
+    {
+        title: 'Health Fact #1',
+        content:
+            "92% of the world's population lives in places where air pollution exceeds safe limits.",
+        image: heath1Image,
+        imageContent: "Areas is yellow, red, orange and purple exceed the WHO's safety limits for air pollution.",
+        type: 1
+    },
+    {
+        title: 'Health Fact #2',
+        content:
+            'Air pollution is the fourth-largest threat to human health after high blood pressure, dietary risks, and smoking.',
+        image: heath2Image,
+        type: 2
+    },
+    {
+        title: 'Health Fact #3',
+        content:
+            'In 2017, approximately 10% of all deaths worldwide were from air pollution-related diseases.',
+        image: heath3Image,
+        type: 1
+    },
+    {
+        title: 'Health Fact #4',
+        content:
+            'In 2017, it is estimated that air pollution reduced worldwide life expectancy by an average of 20 months.',
+        image: heath4Image,
+        type: 2
+    },
+    {
+        title: 'Health Fact #5',
+        content:
+            'Countries with the highest air pollution levels might surprise you.',
+        image: heath5Image,
+        type: 1
     },
 ];

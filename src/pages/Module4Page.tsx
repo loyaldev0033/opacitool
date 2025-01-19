@@ -1,54 +1,12 @@
-import heath1Image from '@assets/26.png';
-import heath2Image from '@assets/27.png';
-import heath3Image from '@assets/28.png';
-import heath4Image from '@assets/29.png';
-import heath5Image from '@assets/30.png';
-import mainImage from '@assets/25.png';
 import { useState } from 'react';
+import mainImage from '@assets/25.png';
+import { moduleSection14 } from '@constants'; 
 
 const mainContent = {
     title: "Health Impacts of Air Pollution",
     content: "There are many health impacts associated with air pollutions. Opacity observations are one of the easiest and most effective ways to monitor and reduce air pollution. By becomig a visible emissions observer, you are helping to reduce the deadliest form of pollution in the world",
     image: mainImage
 };
-const sections = [
-    {
-        title: 'Health Fact #1',
-        content:
-            "92% of the world's population lives in places where air pollution exceeds safe limits.",
-        image: heath1Image,
-        imageContent: "Areas is yellow, red, orange and purple exceed the WHO's safety limits for air pollution.",
-        type: 1
-    },
-    {
-        title: 'Health Fact #2',
-        content:
-            'Air pollution is the fourth-largest threat to human health after high blood pressure, dietary risks, and smoking.',
-        image: heath2Image,
-        type: 2
-    },
-    {
-        title: 'Health Fact #3',
-        content:
-            'In 2017, approximately 10% of all deaths worldwide were from air pollution-related diseases.',
-        image: heath3Image,
-        type: 1
-    },
-    {
-        title: 'Health Fact #4',
-        content:
-            'In 2017, it is estimated that air pollution reduced worldwide life expectancy by an average of 20 months.',
-        image: heath4Image,
-        type: 2
-    },
-    {
-        title: 'Health Fact #5',
-        content:
-            'Countries with the highest air pollution levels might surprise you.',
-        image: heath5Image,
-        type: 1
-    },
-];
 
 const ModulePage = () => {
 
@@ -82,10 +40,10 @@ const ModulePage = () => {
                 </div>
             </div>
             <div className="px-8 bg-[#eee]">
-            {sections.map((section, index) => (
+            {moduleSection14.map((section, index) => (
                 <div
                 key={index}
-                className={`py-12 px-14 bg-[#eee] flex items-start space-x-16 ${index !== sections.length - 1 ? 'border-b-4 border-black' : ''}`}
+                className={`py-12 px-14 bg-[#eee] flex items-start space-x-16 ${index !== moduleSection14.length - 1 ? 'border-b-4 border-black' : ''}`}
                 >
                 <div className="flex-1">
                     {section.type === 2 ? (
