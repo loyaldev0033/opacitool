@@ -10,7 +10,7 @@ const router = createBrowserRouter(
         </Route>
     ),
     {
-        basename: '/opacitool',
+        basename: '/',
     }
 );
 
