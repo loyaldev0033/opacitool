@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import mainImage from '@assets/25.png';
-import { moduleSection14 } from '@constants'; 
+import { moduleSection14 } from '@constants';
+import { images } from '@utils'; 
 
 const mainContent = {
     title: "Health Impacts of Air Pollution",
     content: "There are many health impacts associated with air pollutions. Opacity observations are one of the easiest and most effective ways to monitor and reduce air pollution. By becomig a visible emissions observer, you are helping to reduce the deadliest form of pollution in the world",
-    image: mainImage
+    image: images.mainImage
 };
 
 const ModulePage = () => {
@@ -17,7 +17,7 @@ const ModulePage = () => {
       console.log("this is enlarge",enlargedImage);
     };
     return (
-        <div className="border-b-4 border-red-500">
+        <div className="border-b-4 border-red-500">            
             <div className="border-b-4 border-white py-8 px-4 bg-[#e4eaed] flex items-start space-x-16">
                 <div className="w-full sm:w-[200px] md:w-[500px] lg:w-[900px]">
                     <div className="w-full">

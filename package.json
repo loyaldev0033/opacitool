@@ -1,11 +1,12 @@
 {
-    "name": "opaci-tool",
+    "name": "react-admin-dashboard",
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://sumanadithan.github.io/react-admin-dashboard",
     "scripts": {
         "dev": "vite",
-        "build": "tsc -b && vite build",
+        "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
         "test": "vitest",

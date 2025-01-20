@@ -10,6 +10,7 @@
             "@pages": ["pages"],
             "@constants": ["constants"],
             "@ui": ["ui"],
+            "@utils": ["utils"],
             "@assets/*": ["assets/*"]
         }
     }
