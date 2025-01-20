@@ -1,4 +1,4 @@
-OPACI-TOOL
+## OPACI-TOOL
 
 Live URL: https://opacitool.vercel.app/.
 
