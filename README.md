@@ -39,6 +39,7 @@ src
 ├── pages             # Application pages
 ├── routes            # Application routes
 ├── ui                # Reusable animation components using Framer Motion
+└── utils             # Utility functions and helpers
 ```
 
 ## Contributing
