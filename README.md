@@ -42,11 +42,6 @@ src
 └── utils             # Utility functions and helpers
 ```
 
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-
 ## Contact
 
 For any questions or inquiries, please contact me at nikoladev86(G).
